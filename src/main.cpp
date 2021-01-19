@@ -7,5 +7,9 @@ int main()
     //road.show();
     Bike bike;
     bike.run(road);
+
+    Road longRoad(40);
+    bike.run(longRoad);
+
     return 0;
 }
